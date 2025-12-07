@@ -1,0 +1,30 @@
+{
+  "name": "@davidsneighbour/cspell-dict-gohugo",
+  "description": "Hugo template functions and methods dictionary for cspell.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/davidsneighbour/cspell-dict-gohugo"
+  },
+  "author": "Patrick Kollitsch <davidsneighbourdev+gh@gmail.com>",
+  "keywords": [
+    "cspell",
+    "dictionary",
+    "hugo",
+    "template",
+    "gohugo"
+  ],
+  "scripts": {
+    "update": "node update-hugo-dictionary.js --output ./dict/gohugo-template.txt"
+  },
+  "files": [
+    "dict/gohugo-template.txt",
+    "cspell-ext.json"
+  ],
+  "exports": {
+    ".": "./cspell-ext.json",
+    "./cspell": "./cspell-ext.json",
+    "./cspell-ext.json": "./cspell-ext.json"
+  },
+  "type": "module"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "gohugo-template",
+  "name": "GoHugo Template Functions and Methods",
+  "description": "Dictionary of all GoHugo template functions and methods.",
+  "readonly": true,
+  "dictionaryDefinitions": [
+    {
+      "name": "gohugo-template",
+      "path": "./dict/gohugo-template.txt",
+      "description": "GoHugo template functions and methods"
+    }
+  ],
+  "dictionaries": [],
+  "languageSettings": [
+    {
+      "languageId": "*",
+      "locale": "*",
+      "dictionaries": [
+        "gohugo-template"
+      ],
+      "dictionaryDefinitions": []
+    }
+  ]
+}
