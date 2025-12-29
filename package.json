@@ -1,12 +1,8 @@
 {
-  "name": "@davidsneighbour/cspell-dict-gohugo",
-  "description": "Hugo template functions and methods dictionary for cspell.",
+  "name": "@davidsneighbour/cspell-dict-hugo-template",
+  "description": "GoHugo template functions and methods dictionary for CSpell.",
   "version": "0.0.0",
   "license": "MIT",
-  "repository": {
-    "url": "https://github.com/davidsneighbour/cspell-dict-gohugo"
-  },
-  "author": "Patrick Kollitsch <davidsneighbourdev+gh@gmail.com>",
   "keywords": [
     "cspell",
     "dictionary",
@@ -15,7 +11,7 @@
     "gohugo"
   ],
   "scripts": {
-    "update": "node update-hugo-dictionary.js --output ./dict/gohugo-template.txt"
+    "update": "node update-hugo-dictionary.js --output ./dict/hugo-template.txt"
   },
   "files": [
     "dict/gohugo-template.txt",
